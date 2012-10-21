@@ -1,0 +1,46 @@
+pwd
+ls
+cat area.rb 
+pwd
+cd elisp/
+ls
+curl -O http://kanji.zinbun.kyoto-u.ac.jp/~tomo/lemi/dist/apel/apel-10.8.tar.gz
+ls
+tar xvf apel-10.8.tar.gz 
+ls
+anything-ipa.el            anything-startup.el           redo+.el
+tar xzvf apel-10.8.tar.gz 
+tar: Error exit delayed from previous errors.
+tar xjvf apel-10.8.tar.gz 
+gunzip apel-10.8.tar.gz 
+ls
+tar xvf apel-10.8.tar.gz 
+ls
+tar zxvf apel-10.8.tar.gz 
+gunzip apel-10.8.tar.gz 
+ls
+gzip -dc apel-10.8.tar.gz 
+ls
+unzip apel-10.8.tar.gz 
+ls
+bunzip2 -c apel-10.8.tar.gz 
+gunzip apel-10.8.tar.gz 
+uncompress apel-10.8.tar.gz 
+ls
+uncompress apel-10.8.tar.gz 
+ls
+tar xzvf apel-10.8.tar.gz 
+tar zxvf apel-10.8.tar.gz 
+tar xvzf apel-10.8.tar.gz 
+gunzip apel-10.8.tar.gz 
+ls -l ape*
+rm -f apel-10.8.tar.gz 
+ls -l apel-10.8.tar.gz 
+tar zxvf apel-10.8.tar.gz 
+ls
+cd apel-10.8/
+ls
+ls -l
+-rw-r--r--   1 kohgami        staff      6092 2005-07-06  2005 tinycustom.el
+pwd
+exit

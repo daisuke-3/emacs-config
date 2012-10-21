@@ -1,1 +1,0 @@
-/Users/kohgami/.emacs.d

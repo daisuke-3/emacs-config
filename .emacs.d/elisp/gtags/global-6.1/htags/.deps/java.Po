@@ -1,0 +1,281 @@
+java.o java.o: java.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/secure/_stdio.h \
+  /usr/include/secure/_common.h ../config.h /usr/include/stdlib.h \
+  /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/i386/_structs.h \
+  /usr/include/sys/_structs.h /usr/include/machine/_structs.h \
+  /usr/include/mach/i386/_structs.h /usr/include/sys/resource.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h ../libutil/global.h ../libutil/gparam.h \
+  /usr/include/sys/param.h /usr/include/sys/types.h \
+  /usr/include/sys/syslimits.h /usr/include/machine/param.h \
+  /usr/include/i386/param.h /usr/include/i386/_param.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  ../libutil/abs2rel.h ../libutil/args.h ../libutil/gpathop.h \
+  ../libutil/dbop.h ../libdb/db.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/sys/select.h \
+  /usr/include/sys/_select.h ../libdb/compat.h ../libglibc/regex.h \
+  ../libutil/strbuf.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/secure/_string.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h \
+  ../libutil/char.h ../libutil/checkalloc.h ../libutil/compress.h \
+  ../libutil/conf.h ../libutil/date.h ../libutil/defined.h \
+  ../libutil/die.h ../libutil/env.h ../libutil/fileop.h ../libutil/find.h \
+  ../libutil/format.h ../libutil/getdbpath.h ../libutil/gtagsop.h \
+  ../libutil/idset.h ../libutil/strhash.h ../libutil/pool.h \
+  ../libglibc/obstack.h ../libdb/queue.h ../libutil/varray.h \
+  ../libutil/is_unixy.h ../libutil/langmap.h ../libutil/linetable.h \
+  ../libutil/locatestring.h ../libutil/logging.h ../libutil/makepath.h \
+  ../libutil/path.h ../libutil/pathconvert.h ../libutil/split.h \
+  ../libutil/statistics.h ../libutil/strlimcpy.h ../libutil/strmake.h \
+  /usr/include/ctype.h /usr/include/runetype.h ../libutil/tab.h \
+  ../libutil/test.h ../libutil/token.h ../libutil/usable.h \
+  ../libutil/version.h ../libutil/xargs.h anchor.h \
+  ../libutil/checkalloc.h common.h htags.h ../libutil/gparam.h \
+  ../libutil/gtagsop.h ../libparser/java_res.h ../libutil/strmake.h \
+  lexcommon.h incop.h ../libutil/strbuf.h ../libutil/tab.h
+
+/usr/include/stdio.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/secure/_stdio.h:
+
+/usr/include/secure/_common.h:
+
+../config.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/sys/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+../libutil/global.h:
+
+../libutil/gparam.h:
+
+/usr/include/sys/param.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/syslimits.h:
+
+/usr/include/machine/param.h:
+
+/usr/include/i386/param.h:
+
+/usr/include/i386/_param.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+../libutil/abs2rel.h:
+
+../libutil/args.h:
+
+../libutil/gpathop.h:
+
+../libutil/dbop.h:
+
+../libdb/db.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_select.h:
+
+../libdb/compat.h:
+
+../libglibc/regex.h:
+
+../libutil/strbuf.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/secure/_string.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h:
+
+../libutil/char.h:
+
+../libutil/checkalloc.h:
+
+../libutil/compress.h:
+
+../libutil/conf.h:
+
+../libutil/date.h:
+
+../libutil/defined.h:
+
+../libutil/die.h:
+
+../libutil/env.h:
+
+../libutil/fileop.h:
+
+../libutil/find.h:
+
+../libutil/format.h:
+
+../libutil/getdbpath.h:
+
+../libutil/gtagsop.h:
+
+../libutil/idset.h:
+
+../libutil/strhash.h:
+
+../libutil/pool.h:
+
+../libglibc/obstack.h:
+
+../libdb/queue.h:
+
+../libutil/varray.h:
+
+../libutil/is_unixy.h:
+
+../libutil/langmap.h:
+
+../libutil/linetable.h:
+
+../libutil/locatestring.h:
+
+../libutil/logging.h:
+
+../libutil/makepath.h:
+
+../libutil/path.h:
+
+../libutil/pathconvert.h:
+
+../libutil/split.h:
+
+../libutil/statistics.h:
+
+../libutil/strlimcpy.h:
+
+../libutil/strmake.h:
+
+/usr/include/ctype.h:
+
+/usr/include/runetype.h:
+
+../libutil/tab.h:
+
+../libutil/test.h:
+
+../libutil/token.h:
+
+../libutil/usable.h:
+
+../libutil/version.h:
+
+../libutil/xargs.h:
+
+anchor.h:
+
+../libutil/checkalloc.h:
+
+common.h:
+
+htags.h:
+
+../libutil/gparam.h:
+
+../libutil/gtagsop.h:
+
+../libparser/java_res.h:
+
+../libutil/strmake.h:
+
+lexcommon.h:
+
+incop.h:
+
+../libutil/strbuf.h:
+
+../libutil/tab.h:

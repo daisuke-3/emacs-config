@@ -1,0 +1,11 @@
+strlimcpy.o strlimcpy.o: strlimcpy.c ../config.h die.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h \
+  strlimcpy.h
+
+../config.h:
+
+die.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h:
+
+strlimcpy.h:
