@@ -20,7 +20,7 @@
 (add-to-list 'load-path "~/.emacs.d/elisp/color-theme/")
 (when (require 'color-theme)
      (color-theme-initialize)
-     (color-theme-hober))
+     (color-theme-calm-forest))
 
 ;;-----------------------------------------------
 ;; anything
